@@ -1,0 +1,51 @@
+
+#include "PRIVATE_HEADER_PATH"
+#include <mu_class/class.h>
+#include <mu_class/class_private.h>
+
+
+/* =========================================== Virtual functions declaration */
+
+static void* init(void* const);
+static void deinit(void*);
+static void print(void const* const);
+
+static const ClassDescriptor class = {
+  .size = sizeof(CLASS_NAME),
+  .name = "CLASS_NAME",
+  .init = init,
+  .deinit = deinit,
+  .print = print,
+  .vptr = NULL,
+  .superClass = NULL,
+};
+
+
+/* ========================================== Interface functions definition */
+
+ClassDescriptor const* CLASS_NAME_getClassDescriptor(void){
+  return &class;
+}
+
+
+/* ============================================ Virtual functions definition */
+
+void* init(void* const _self){
+  CLASS_NAME* const self = _self;
+  self->class = &class;
+  /* initialization code here */
+  return _self;
+}
+
+void deinit(void* _self){
+  CLASS_NAME* const self = _self;
+  /* deinitialization code here */
+  return;
+}
+
+void print(void const* const _self){
+  CLASS_NAME const* const self = _self;
+  printf("CLASS_NAME = {print function not implemented yet}\n");
+  return;
+}
+

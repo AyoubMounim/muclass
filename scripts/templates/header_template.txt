@@ -1,0 +1,15 @@
+
+#pragma once
+
+#include <mu_class/class.h>
+
+
+typedef struct CLASS_NAME CLASS_NAME;
+
+
+/* ========================================= Interface functions declaration */
+
+ClassDescriptor const* CLASS_NAME_getClassDescriptor(void);
+
+/* Public methods here */
+

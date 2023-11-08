@@ -1,0 +1,5 @@
+/home/ayoub/mu_libs/mu_libs_c/muclass/test/build/CMakeFiles/test.dir
+/home/ayoub/mu_libs/mu_libs_c/muclass/test/build/CMakeFiles/edit_cache.dir
+/home/ayoub/mu_libs/mu_libs_c/muclass/test/build/CMakeFiles/rebuild_cache.dir
+/home/ayoub/mu_libs/mu_libs_c/muclass/test/build/point/CMakeFiles/edit_cache.dir
+/home/ayoub/mu_libs/mu_libs_c/muclass/test/build/point/CMakeFiles/rebuild_cache.dir

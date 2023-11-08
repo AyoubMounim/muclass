@@ -1,0 +1,17 @@
+
+#pragma once
+
+#include "PUBLIC_HEADER_PATH"
+#include <mu_class/class.h>
+
+
+struct CLASS_NAME {
+  const ClassDescriptor* class;
+  /* private members here */
+};
+
+
+typedef struct {
+  /* virtual methods here */
+} CLASS_NAMEVtbl;
+

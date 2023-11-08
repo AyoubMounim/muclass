@@ -1,0 +1,8 @@
+/usr/local/lib/mu_libs_c/muclass/lib/libmuclass.a
+/usr/local/lib/mu_libs_c/muclass/include/mu_class/class.h
+/usr/local/lib/mu_libs_c/muclass/include/mu_class/class_private.h
+/usr/local/lib/mu_libs_c/muclass/include/mu_class/oop_mumacros.h
+/usr/local/lib/mu_libs_c/muclass/cmake/muclassTargets.cmake
+/usr/local/lib/mu_libs_c/muclass/cmake/muclassTargets-noconfig.cmake
+/usr/local/lib/mu_libs_c/muclass/cmake/muclassConfigVersion.cmake
+/usr/local/lib/mu_libs_c/muclass/cmake/muclassConfig.cmake

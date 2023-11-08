@@ -1,2 +1,0 @@
-/usr/bin/ar qc libmuclass.a CMakeFiles/muclass.dir/src/class.c.o
-/usr/bin/ranlib libmuclass.a

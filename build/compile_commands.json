@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/ayoub/mu_libs/mu_libs_c/muclass/build",
-  "command": "/usr/bin/cc  -I/home/ayoub/mu_libs/mu_libs_c/muclass/include -I/home/ayoub/mu_libs/mu_libs_c/muclass/src -isystem /usr/local/lib/mu_libs_c/mualloc/include -std=gnu99 -o CMakeFiles/muclass.dir/src/class.c.o -c /home/ayoub/mu_libs/mu_libs_c/muclass/src/class.c",
-  "file": "/home/ayoub/mu_libs/mu_libs_c/muclass/src/class.c"
-}
-]

@@ -9,7 +9,7 @@ add_library(${CMAKE_PROJECT_NAME} STATIC)
 
 set(namespace muclass)
 
-set(CMAKE_INSTALL_PREFIX ${CMAKE_CURRENT_SOURCE_DIR}/install/)
+#set(CMAKE_INSTALL_PREFIX ${CMAKE_CURRENT_SOURCE_DIR}/install/)
 
 include(GNUInstallDirs)
 
@@ -34,7 +34,7 @@ set(HEADERS
 
 set_target_properties(${CMAKE_PROJECT_NAME} PROPERTIES PUBLIC_HEADER "${HEADERS}")
 
-set(CMAKE_PREFIX_PATH "/usr/local/lib/mu_libs_c/mualloc/")
+set(CMAKE_PREFIX_PATH ${CMAKE_CURRENT_SOURCE_DIR}/external/)
 find_package(mualloc CONFIG REQUIRED)
 target_link_libraries(${CMAKE_PROJECT_NAME} PRIVATE mualloc::mualloc)
 
